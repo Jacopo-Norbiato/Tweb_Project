@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+.title {
+  padding-left: 20%;
+  color: #ffffff;
+  font-size: 30px;
+}
+.title h1 {
+  font-size: 85px;
+  font-family: "Bauhaus 93", sans-serif;
+  font-weight: bold;
+  color: #07243f;
+}
+.title h4 {
+  margin-left: 1%;
+  border-radius: 10px;
+  padding: 5px;
+  border-bottom: 4px solid #b6800c;
+  border-top: 4px solid #b6800c;
+
+    width: fit-content;
+}
+.title h5 {
+    alignment: initial;
+}
+header {
+    position: center;
+    font-size: 30px;
+    color: #fff;
+    background: linear-gradient(to top, #7998af, #154773);
+    padding-inline: 17px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+article {
+    height: 100%;
+    overflow: hidden;
+    background: #7998af;
+}
+
+.hero {
+    height: 100%;
+    background-color: #7998af;
+    background-blend-mode: multiply;
+    background-size: cover;
+    transition: all .3s ease;
+}
+
+article p {
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+article h1 {
+    margin: 30px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.button {
+    alignment: center;
+    margin-right: 30px;
+}
+
+.button1 {
+    width: 85%;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #8ba7c0, #1e72be);
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button1:hover {
+  border-radius: 25px;
+  border: 2px solid #EEEEEE;
+}
+#back {
+    background: linear-gradient(to right, #8ba7c0, #0859a1);
+    border-radius: 15px;
+    color: white;
+    border-color: white;
+    width: 40px;
+    padding-top: 5px;
+    height: 30px;
+    margin: 10px;
+    float: right;
+}
+#back:hover {
+    border-radius: 50px;
+    border: 2px solid #193f60;
+    color: #193f60;
+    font-weight: bold;
+}
+
+.not-info {
+  padding-bottom: 50%;
+}
+
+.not-info i{
+  padding-left: 35%;
+  width: 80%;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-size: 100px;
+  border-bottom: 3px solid #0b3052;
+}
+
+.not-info h2, h5 {
+  margin-bottom: 10px;
+}
+
+.result, .result1 {
+  border: 3px solid #ffffff;
+  visibility: hidden;
+  margin-top: 10%;
+  margin-left: 35%;
+  color: #143b5b;
+
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  text-shadow: 2px 2px 5px #193f60;
+}
+.result.active, .result1.active {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s ease-in;
+}
+
+/* TABELLA IN EDIT E AGENDA */
+
+.list-edit {
+  margin-top: 20px;
+  width: 100%;
+  margin-right: 15px;
+  list-style: none;
+  border-collapse: collapse;
+  font-family: "Bahnschrift", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+.list-edit th{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #0b3052;
+}
+.list-edit tr {
+  margin-top: 10px;
+}
+.list-edit td {
+  text-align: center;
+  padding: 5px;
+}
+
+.list-edit tr:nth-child(even) {
+  background-color: #8ba7c0;
+}
+.list-edit tr:nth-child(odd) {
+  background: #EEEEEE;
+}
+
+tr button {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  border: 3px solid #0b3052;
+  display: inline-grid;
+}
+
+tr button:hover {
+  background: #eaab28;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+}
