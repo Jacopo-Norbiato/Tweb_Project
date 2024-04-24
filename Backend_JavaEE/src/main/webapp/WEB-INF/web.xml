@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+
+       <!-- __________________________________ WEBAPP MAPPING SERVLET __________________________________ -->
+
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.example.demojac1.controller.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RegistrationController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.RegistrationController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistrationController</servlet-name>
+        <url-pattern>/RegistrationController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AgendaController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.AgendaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgendaController</servlet-name>
+        <url-pattern>/AgendaController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AgendaRemoveController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.AgendaRemoveController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgendaRemoveController</servlet-name>
+        <url-pattern>/AgendaRemoveController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AgendaCheckController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.AgendaCheckController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgendaCheckController</servlet-name>
+        <url-pattern>/AgendaCheckController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InformationController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.InformationController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InformationController</servlet-name>
+        <url-pattern>/InformationController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EditController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.EditController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditController</servlet-name>
+        <url-pattern>/EditController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LogoutController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.LogoutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutController</servlet-name>
+        <url-pattern>/LogoutController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ReservationController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.ReservationController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReservationController</servlet-name>
+        <url-pattern>/ReservationController</url-pattern>
+    </servlet-mapping>
+
+    <!-- __________________________________ ANDROID MAPPING SERVLET __________________________________ -->
+
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.Android.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/Android/LoginController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CalendarController</servlet-name>
+        <servlet-class>com.example.demojac1.controller.Android.CalendarController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalendarController</servlet-name>
+        <url-pattern>/Android/CalendarController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Profile</servlet-name>
+        <servlet-class>com.example.demojac1.controller.Android.Profile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Profile</servlet-name>
+        <url-pattern>/Android/Profile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Agenda</servlet-name>
+        <servlet-class>com.example.demojac1.controller.Android.Agenda</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Agenda</servlet-name>
+        <url-pattern>/Android/Agenda</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgendaStory</servlet-name>
+        <servlet-class>com.example.demojac1.controller.Android.AgendaStory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgendaStory</servlet-name>
+        <url-pattern>/Android/AgendaStory</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgendaRemove</servlet-name>
+        <servlet-class>com.example.demojac1.controller.Android.AgendaRemove</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgendaRemove</servlet-name>
+        <url-pattern>/Android/AgendaRemove</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgendaCheck</servlet-name>
+        <servlet-class>com.example.demojac1.controller.Android.AgendaCheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgendaCheck</servlet-name>
+        <url-pattern>/Android/AgendaCheck</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
